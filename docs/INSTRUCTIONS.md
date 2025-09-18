@@ -16,7 +16,7 @@ Fork deze deeltaak, zet je Wiki aan bij Repository Settings en documenteer je te
 
 Het is de verantwoordelijkheid van een frontender dat een website voor verschillende mensen, met verschillende apparaten, in verschillende situaties, _Snel_ is. Met goede code kun je ervoor zorgen dat mensen met een (tijdelijke) trage verbinding, een trager apparaat, of een oudere browser een website ook op een prettige manier kunnen gebruiken.
 
-Stel je voor dat de bundel van de gebruiker van jouw website net leeg is, of die gebruiker een oude versie van Firefox gebruikt, of een iPhone van 5 jaar oud, of op een tweedehands laptop met oude Intel process surft. Of überhaupt geen toegang heeft tot 5G. Of tot 4G. Of tot 3G. Of ...
+Stel je voor dat de bundel van de gebruiker van jouw website net leeg is, of die gebruiker een oude versie van Firefox gebruikt, of een iPhone van 5 jaar oud, of op een tweedehands laptop met oude Intel processor surft. Of überhaupt geen toegang heeft tot 5G. Of tot 4G. Of tot 3G. Of ...
 
 De meeste mensen werken _niet_ op net zo'n snel apparaat als jij. Je hebt hier in Sprint 9 al wat van meegekregen. We zullen dus moeten leren hoe we kunnen meten of onze website snel genoeg is voor de meeste mensen. Dit doen we met een _Performance Audit_.
 
