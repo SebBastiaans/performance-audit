@@ -22,9 +22,9 @@ Een performance audit uitgevoerd op [maris-care.nl](https://maris-care.nl/), een
 
 ## Bevindingen per tool
 
-### 1. Lighthouse
+### 1. [Lighthouse](https://github.com/SebBastiaans/performance-audit/wiki/Performance%E2%80%90audit#lighthouse-performance-test)
 
-**Mobile score: laag — Desktop score: hoger**
+**[Mobile score](https://github.com/SebBastiaans/performance-audit/wiki/Performance%E2%80%90audit#mobile): laag — [Desktop score](https://github.com/SebBastiaans/performance-audit/wiki/Performance%E2%80%90audit#desktop): hoger**
 
 De grootste problemen op beide apparaten:
 
@@ -33,13 +33,13 @@ De grootste problemen op beide apparaten:
 - 🟠 **Avoid enormous network payloads** — De totale paginagrootte is ruim 4 MB op mobile en nog zwaarder op desktop.
 - ⚪ **Avoid long main-thread tasks** — Op mobile zijn er 10 taken die langer dan 50ms duren, waardoor de pagina tijdelijk "bevriest".
 
-### 2. PageSpeed Insights
+### 2. [PageSpeed Insights](https://github.com/SebBastiaans/performance-audit/wiki/Performance%E2%80%90audit#pagespeed-insights)
 
 De scores komen grotendeels overeen met Lighthouse, maar de **network payload is op PageSpeed Insights bijna het dubbele** vergeleken met de lokale Lighthouse test. Dit komt doordat PageSpeed Insights de test uitvoert vanaf externe servers en meer realistische netwerkomstandigheden simuleert.
 
 Op desktop zijn de long main-thread tasks hier nog wél zichtbaar (7 taken), terwijl die in de lokale Lighthouse test verdwenen waren.
 
-### 3. WebPageTest
+### 3. [WebPageTest](https://github.com/SebBastiaans/performance-audit/wiki/Performance%E2%80%90audit#webpagetest)
 
 Opvallende patronen:
 - De waterfall-analyse toont **96 requests**. 
@@ -48,7 +48,7 @@ Opvallende patronen:
 
 ---
 
-## Conclusie & aanbevelingen
+## Conclusie
 
 Het grootste performance probleem van maris-care.nl is de hoeveelheid **ongebruikte JavaScript** (~376 KiB).
 
