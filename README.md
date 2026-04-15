@@ -1,6 +1,6 @@
 # Performance Audit 
 
-Doe een Performance audit op een bestaande website uit je eigen omgeving en rapporteer daarover.
+Doe [een Performance audit](https://github.com/SebBastiaans/performance-audit/wiki/Performance%E2%80%90audit#webpagetest) op een bestaande website uit je eigen omgeving en rapporteer daarover.
 
 De instructies van deze opdracht staan in [INSTRUCTIONS](https://github.com/fdnd-task/performance-audit/blob/main/docs/INSTRUCTIONS.md).
 
